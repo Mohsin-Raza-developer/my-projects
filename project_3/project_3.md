@@ -29,10 +29,12 @@ Will print out the values 0, 1, 2, 3, 4, 5, 6, 7, 8, 9. The values printed in li
 ### used for loop
 ```bash
 def main():  
-              # stard,end,less
-                   |   |   |    
-    for i in range(0, 10, -1):
+              # stard,end,increase
+              #    |   |   |    
+    for i in range(0, 10, +1):
     print(i)
+
+print("Liftoff")
 
 
 if __name__ == '__main__':
@@ -43,8 +45,10 @@ if __name__ == '__main__':
 
 ```bash
           # stard,end,increase
-               |   |   |    
+          #    |   |   |    
 for i in range(0, 10, +1):
     print(i)
+
+print("Liftoff")
 ```
 
