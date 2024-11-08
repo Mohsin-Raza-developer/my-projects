@@ -31,14 +31,20 @@ Will print out the values 0, 1, 2, 3, 4, 5, 6, 7, 8, 9. The values printed in li
 def main():  
               # stard,end,increase
               #    |   |   |    
-    for i in range(0, 10, +1):
-    print(i)
+    for i in range(0, 10, -1):
+    print(i, end=" ")
 
-print("Liftoff")
+print("Liftoff!")
 
 
 if __name__ == '__main__':
     main()
+```
+
+## output
+
+```bash
+10 9 8 7 6 5 4 3 2 1 Liftoff!
 ```
 
 ## Solution 2
@@ -47,8 +53,13 @@ if __name__ == '__main__':
           # stard,end,increase
           #    |   |   |    
 for i in range(0, 10, +1):
-    print(i)
+    print(i, end=" ")
 
-print("Liftoff")
+print("Liftoff!")
 ```
 
+## output
+
+```bash
+0 1 2 3 4 5 6 7 8 9 Liftoff!
+```
