@@ -35,7 +35,7 @@ while curr_value < 100:
 
 ### 1. Using a while Loop (Basic Approach)
 
-```
+```bash
 def main():
     # Ask the user to enter a number
     curr_value = int(input("Enter a number: "))
@@ -51,5 +51,4 @@ def main():
 # Python file to call the main() function.
 if __name__ == '__main__':
     main()
-
 ```
