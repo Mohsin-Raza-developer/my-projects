@@ -31,7 +31,8 @@ Here is a joke for you! Panaversity GPT - Sophia is heading out to the grocery s
 
 ## Starter Code
 
-```PROMPT = "What do you want?"
+```bash
+PROMPT = "What do you want?"
 
 JOKE = """Here is a joke for you 🤣🤣🤣!
 
