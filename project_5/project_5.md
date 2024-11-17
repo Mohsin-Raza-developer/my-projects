@@ -37,8 +37,6 @@ value = random.randint(1, 6)
 ```bash
 import random
 
-value : int = 10
-
 def main():
 
     for value in range(10):
@@ -46,9 +44,7 @@ def main():
       print(value,end=" ")
 
 
-
-
 if __name__ == '__main__':
     main()
 
-numbers = [1, 2, 3, 4, 5]
+```
